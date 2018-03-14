@@ -11,7 +11,7 @@ bot.on('ready', function () {
 })
 
 
-bot.login('NDIyOTE4NTMyMzIyNDI2OTAx.DYlVBA.iX1z5i06EszVoT08ThMzU66FKUQ')
+bot.login(process.env.TOKEN)
 bot.on('message', message => {
     if (message.content === 'bombe') {
       message.reply('3')
